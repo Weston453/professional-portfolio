@@ -1,0 +1,61 @@
+.Home {
+    margin: 0;
+    padding: 0;
+    background: bisque;
+    height: 90vh;
+    padding-top: 70px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Home .Construction {
+    height: 45vh;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    border-radius: 10px;
+}
+
+.Home .Laptop {
+    height: 25vh;
+    margin-left: 8vw;
+    /* margin-top: 10vh; */
+    border-radius: 10px;
+    bottom: 0;
+    margin-bottom: 10%;
+}
+
+.Home .Container {
+    margin-top: 10vh;
+    margin-left: 8vw;
+    justify-content: center;
+}
+
+.Home .Container h1 {
+    margin: 0;
+}
+
+.Home .Container .Btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.Home .Container button {
+    width: 150px;
+    background: transparent;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.Home .Container button a {
+    text-decoration: none;
+    color: black;
+}
+
+.Home .Container button:hover {
+    width: 150px;
+    background: burlywood;
+    font-weight: 700;
+    cursor: pointer;
+}

@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     background: burlywood;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
 }
 
 .About h2 {
-    margin-top: 5vh;
+    margin-top: 12vh;
     margin-left: 5vw;
 }
 

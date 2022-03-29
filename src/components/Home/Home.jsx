@@ -14,7 +14,7 @@ const Home = () => {
           I am a Full-Stack web devloper.
         </h1>
         <div className={classes.Btn}>
-          <a href="#About"><button>View my Work</button></a>
+          <a href="#Projects"><button>View my Work</button></a>
         </div>
       </div>
       <img className={classes.Construction} src={Construction} alt="Website Construction" />

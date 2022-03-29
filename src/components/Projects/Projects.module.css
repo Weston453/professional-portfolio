@@ -1,4 +1,51 @@
 .Projects {
-    height: 100vh;
-    background: black;
+    margin: 0;
+    padding: 10;
+    padding-bottom: 8vh;
+    background: orange;
+    /* height: 100vh; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.Projects h2 {
+    margin-top: 12vh;
+    margin-left: 5vw;
+}
+
+.Projects .ImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Projects .ImageContainer .Images {
+    height: 500px;
+    width: 250px;
+    padding: 1%;
+    background-color: purple;
+    margin: 1.5rem 1.5rem;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Projects .ImageContainer .Images p {
+    height: 250px;
+    width: 250px;
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.Projects .ImageConatiner .Images .Picture {
+    height: 250px;
+    width: 240px;
+}
+
+.test {
+    height: 240px;
+    width: 240px;
+    background: white;
 }

@@ -1,4 +1,14 @@
 .Skills {
+    margin: 0;
+    padding: 0;
     height: 100vh;
     background: forestgreen;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Skills h2 {
+    margin-top: 12vh;
+    margin-left: 5vw;
 }

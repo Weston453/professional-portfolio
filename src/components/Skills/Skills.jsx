@@ -4,7 +4,7 @@ import classes from './Skills.module.css'
 const Skills = () => {
   return (
     <div className={classes.Skills} id="Skills">
-      Skills
+      <h2>Skills</h2>
     </div>
   )
 }

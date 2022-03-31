@@ -35,28 +35,34 @@
     margin: 0;
 }
 
-.Home .Container .Btn {
+.Home .Container .Btn a{
     display: flex;
     justify-content: center;
     margin-top: 3vh;
+    text-decoration: none;
 }
 
-.Home .Container button {
+.Home .Container .Btn a button {
     width: 150px;
     background: transparent;
     font-weight: 700;
     padding: 8px;
-}
-
-.Home .Container button a {
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: black;
 }
 
-.Home .Container button:hover {
+.Home .Container .Btn a button:hover {
     width: 150px;
     background: burlywood;
     font-weight: 700;
     cursor: pointer;
-    color: white;
+    color: white; 
 }
+
+.Home .Container .Btn a button .Arrow {
+    height: 25px;
+    margin-left: 6px;
+}
+

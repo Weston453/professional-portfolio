@@ -21,31 +21,31 @@
 }
 
 .Projects .ImageContainer .Images {
-    height: 500px;
-    width: 250px;
+    height: 250px;
+    width: 500px;
     padding: 1%;
     background-color: purple;
     margin: 1.5rem 1.5rem;
-    
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
+    border-radius: 10px;
 }
 
 .Projects .ImageContainer .Images p {
     height: 250px;
     width: 250px;
-    margin: 0;
-    text-align: center;
+    margin-left: 2%;
+    /* text-align: center; */
     font-size: 1rem;
 }
 
 .Projects .ImageConatiner .Images .Picture {
     height: 250px;
-    width: 240px;
+    width: 250px;
 }
 
 .test {
-    height: 240px;
-    width: 240px;
+    height: 250px;
+    width: 250px;
     background: white;
+    border-radius: 10px;
 }

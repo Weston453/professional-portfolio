@@ -2,23 +2,23 @@ import React from 'react'
 import classes from './Home.module.css'
 import Laptop from '../Img/Laptop.svg'
 import Construction from '../Img/Construction.jpg'
-import DownArrow from '../Img/DownArrow.svg'
+import Arrow from '../Img/Arrow.svg'
 
 const Home = () => {
   return (
     <div className={classes.Home} id="Home">
       <div className={classes.Container}>
         <h1>
-          Welcome! My name is Weston Isheim.
+          Weston Isheim.
         </h1>
         <h1>
-          I am a Full-Stack web devloper.
+          Full-Stack Web Developer.
         </h1>
         <div className={classes.Btn}>
           <a href="#Projects">
             <button>
               View my Work
-              <img className={classes.Arrow} src={DownArrow} alt="Down Arrow" />
+              <img className={classes.Arrow} src={Arrow} alt="Down Arrow" />
             </button>
           </a>
         </div>

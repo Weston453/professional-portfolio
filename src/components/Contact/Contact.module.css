@@ -1,4 +1,38 @@
 .Contact {
     height: 120px;
     background: purple;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.Contact .Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Contact .ArrowCont {
+    display: flex;
+    justify-content: center;
+}
+
+.Contact .ArrowCont a {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    margin: 0;
+}
+
+.Contact .ArrowCont a .Image {
+    height: 40px;
+    /* transform: rotate(180deg); */
+}
+
+.Contact .Content .Link {
+    cursor: pointer;
+    color: white;
+    padding: 1%;
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import classes from './Home.module.css'
+import { FaChevronDown } from "react-icons/fa";
 import Laptop from '../Img/Laptop.svg'
 import Construction from '../Img/Construction.jpg'
-import Arrow from '../Img/Arrow.svg'
 
 const Home = () => {
   return (
@@ -17,8 +17,8 @@ const Home = () => {
         <div className={classes.Btn}>
           <a href="#Projects">
             <button>
-              View my Work
-              <img className={classes.Arrow} src={Arrow} alt="Down Arrow" />
+              View my work
+              <FaChevronDown size="15px" className={classes.Arrow}/>
             </button>
           </a>
         </div>

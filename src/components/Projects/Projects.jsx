@@ -1,6 +1,13 @@
 import React from 'react'
 import classes from './Projects.module.css'
-import Arrow from '../Img/UpArrow.svg'
+import { FaGithub, FaYoutube, FaChevronUp } from "react-icons/fa";
+import WeddingPicture from '../Img/WeddingPicture.PNG'
+import SkiPakPicture from '../Img/SkiPakPicture.PNG'
+import SpendTrackerPicture from '../Img/SpendTrackerPicture.PNG'
+
+const handleURL = (url) => {
+  return event => window.open(url, "_blank")
+}
 
 const Projects = () => {
   return (
@@ -10,28 +17,50 @@ const Projects = () => {
         <div className={classes.AllProjects}>
           <h2 className={classes.ProjectTitle}>Spend Tracker</h2>
           <div className={classes.Images}>
-            <div className={classes.test}></div>
-            <p>Donec ac mauris pellentesque, pretium nunc eget, rutrum magna. Aliquam purus est, varius et eleifend eget, volutpat in risus. Aenean lobortis volutpat urna sed fermentum. Praesent venenatis cursus viverra. Integer vel facilisis dolor. Etiam elementum dolor vel dolor consectetur finibus.</p>
+            <img className={classes.Thumbnail} src={SpendTrackerPicture} alt="Spend Tracker Project" />
+            <div className={classes.ProjectDescription}>
+              <p>I developed this project with vanilla JS it preforms full CRUD manipulation of DOM elements and utilizes the Weatherbit  API for current locational weather. <br/><br/>
+              JavaScript | CSS3 | HTML5 | NodeJS | Express | Axios | Postman </p>
+              <div className={classes.Icons}>
+                <FaGithub size='30px' className={classes.Link} onClick={handleURL('https://github.com/Weston453/Spend-Tracker-Capstone')} />
+                <FaYoutube size='30px' className={classes.Link} onClick={handleURL('https://youtu.be/eWveuxapa7w')} />
+              </div>
+            </div>
           </div>
         </div>
         <div className={classes.AllProjects}>
           <h2 className={classes.ProjectTitle}>SkiPak</h2>
           <div className={classes.Images}>
-            <div className={classes.test}></div>
-            <p>Donec ac mauris pellentesque, pretium nunc eget, rutrum magna. Aliquam purus est, varius et eleifend eget, volutpat in risus. Aenean lobortis volutpat urna sed fermentum. Praesent venenatis cursus viverra. Integer vel facilisis dolor. Etiam elementum dolor vel dolor consectetur finibus.</p>
+            <img className={classes.Thumbnail} src={SkiPakPicture} alt="SkiPak Project" />
+            <div className={classes.ProjectDescription}>
+              <p>I developed this project with vanilla JS it preforms full CRUD manipulation of DOM elements and utilizes the Weatherbit  API for current locational weather. <br/><br/>
+              JavaScript | CSS3 | HTML5 | NodeJS | Express | Axios | Postman </p>
+              <div className={classes.Icons}>
+                <FaGithub size='30px' className={classes.Link} onClick={handleURL('https://github.com/Weston453/skipak')} />
+                <FaYoutube size='30px' className={classes.Link} onClick={handleURL('https://youtu.be/OIjiTnF7myU')} />
+              </div>
+            </div>
           </div>
         </div>
         <div className={classes.AllProjects}>
           <h2 className={classes.ProjectTitle}>Wedding Website</h2>
           <div className={classes.Images}>
-            <div className={classes.test}></div>
-            <p>Donec ac mauris pellentesque, pretium nunc eget, rutrum magna. Aliquam purus est, varius et eleifend eget, volutpat in risus. Aenean lobortis volutpat urna sed fermentum. Praesent venenatis cursus viverra. Integer vel facilisis dolor. Etiam elementum dolor vel dolor consectetur finibus.</p>
+            <img className={classes.Thumbnail} src={WeddingPicture} alt="Wedding website preview" />
+            <div className={classes.ProjectDescription}>
+              <p>I developed this project with vanilla JS it preforms full CRUD manipulation of DOM elements and utilizes the Weatherbit  API for current locational weather. <br/><br/>
+              JavaScript | CSS3 | HTML5 | NodeJS | Express | Axios | Postman </p>
+              <div className={classes.Icons}>
+                <FaGithub size='30px' className={classes.Link} onClick={handleURL('https://github.com/Weston453/skipak')} />
+                <FaYoutube size='30px' className={classes.Link} onClick={handleURL('https://youtu.be/OIjiTnF7myU')} />
+              </div>
+            </div>
           </div>
         </div>    
       </div>
       <div className={classes.ArrowCont}>
         <a href="#Home">
-          <img className={classes.Image} src={Arrow} alt="back to top" />
+          <FaChevronUp className={classes.UpArrow} />
+          {/* <img className={classes.UpArrow} src={Arrow} alt="back to top" /> */}
         </a>
       </div>
     </div>

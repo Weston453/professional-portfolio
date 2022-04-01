@@ -3,35 +3,39 @@
     background: burlywood;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center;/// */
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: .5vw;
 }
 
 .Contact p {
+    /* background: purple; */
     margin: 0;
-    font-size: 1rem;
+    font-size: .75rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .Contact .Content {
+    width: 25vw;
+    /* background: green; */
     display: flex;
-    /* align-items: center; */
-    justify-content: center;
+    flex-direction: column;
 }
 
-.Contact .Content .Link {
-    cursor: pointer;
-    color: white;
-    padding: 1%;
-}
-
-.Contact .Content .Link:hover {
-    cursor: pointer;
+.Contact .Content .IconLinks {
+    display: flex;
+    justify-content: space-between;
     color: black;
-    padding: 1%;
+    margin-bottom: 3vh;
+    margin-top: 4vh;
+}
+
+.Contact .Content .IconLinks .Link:hover {
+    color: white;
+    cursor: pointer;
+
 }
 

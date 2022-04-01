@@ -39,9 +39,29 @@
     border-radius: 10px;
 }
 
+.Projects .ImageContainer .Images .Icons{
+    display: flex;
+    align-items: flex-start;
+}
+
+.Projects .ImageContainer .Images .Icons .Link{
+    margin-left: 1vw;
+}
+
+.Projects .ImageContainer .Images .Icons .Link:hover{
+    margin-left: 1vw;
+    cursor: pointer;
+    fill: white;
+}
+
+.Projects .ImageContainer .Images .ProjectDescription{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
 .Projects .ImageContainer .Images p {
     height: 250px;
-    width: 250px;
     margin-left: 5px;
     margin-bottom: 0;
     margin-top: 0;
@@ -54,7 +74,7 @@
     width: 250px;
 }
 
-.test {
+.Thumbnail {
     height: 250px;
     width: 250px;
     background: white;
@@ -66,13 +86,14 @@
     justify-content: center;
 }
 
-.Projects .ArrowCont a {
+.Projects .ArrowCont a .UpArrow{
+    fill: black;
     height: 40px;
     width: 40px;
-    background: transparent;
     margin: 0;
 }
 
-.Projects .ArrowCont a .Image {
-    height: 40px;
+.Projects .ArrowCont a .UpArrow:hover{
+    fill: white;
 }
+

@@ -77,8 +77,12 @@
 .Thumbnail {
     height: 250px;
     width: 250px;
-    background: white;
+    /* background: white; */
     border-radius: 10px;
+}
+
+.Thumbnail:hover {
+    opacity: 50%;
 }
 
 .Projects .ArrowCont {

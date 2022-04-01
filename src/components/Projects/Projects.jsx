@@ -19,8 +19,8 @@ const Projects = () => {
           <div className={classes.Images}>
             <img className={classes.Thumbnail} src={SpendTrackerPicture} alt="Spend Tracker Project" />
             <div className={classes.ProjectDescription}>
-              <p>I developed this project with vanilla JS it preforms full CRUD manipulation of DOM elements and utilizes the Weatherbit  API for current locational weather. <br/><br/>
-              JavaScript | CSS3 | HTML5 | NodeJS | Express | Axios | Postman </p>
+              <p>This is my Devmountain Capstone project! It is a spend tracker built with a mobile first design that features user authentication, data visualization, and an intuitive UI<br/><br/>
+              React | Tailwind | Firebase | ChartJS </p>
               <div className={classes.Icons}>
                 <FaGithub size='30px' className={classes.Link} onClick={handleURL('https://github.com/Weston453/Spend-Tracker-Capstone')} />
                 <FaYoutube size='30px' className={classes.Link} onClick={handleURL('https://youtu.be/eWveuxapa7w')} />
@@ -47,11 +47,11 @@ const Projects = () => {
           <div className={classes.Images}>
             <img className={classes.Thumbnail} src={WeddingPicture} alt="Wedding website preview" />
             <div className={classes.ProjectDescription}>
-              <p>I developed this project with vanilla JS it preforms full CRUD manipulation of DOM elements and utilizes the Weatherbit  API for current locational weather. <br/><br/>
-              JavaScript | CSS3 | HTML5 | NodeJS | Express | Axios | Postman </p>
+              <p>I am building a day of wedding website for the guest at my wedding to find helpful info, such as the itinterary, dinner/cocktail menues, wedding party bios and a feature to find your dinner seat.<br/><br/>
+              React | Javascript | CSS3 </p>
               <div className={classes.Icons}>
-                <FaGithub size='30px' className={classes.Link} onClick={handleURL('https://github.com/Weston453/skipak')} />
-                <FaYoutube size='30px' className={classes.Link} onClick={handleURL('https://youtu.be/OIjiTnF7myU')} />
+                <FaGithub size='30px' className={classes.Link} onClick={handleURL('https://github.com/Weston453/wedding-website')} />
+                {/* <FaYoutube size='30px' className={classes.Link} onClick={handleURL('https://youtu.be/OIjiTnF7myU')} /> */}
               </div>
             </div>
           </div>

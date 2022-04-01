@@ -1,8 +1,8 @@
 .Skills {
     margin: 0;
     padding: 0;
-    height: 50vh;
-    background: forestgreen;
+    height: 45vh;
+    background: burlywood;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +13,6 @@
     margin-top: 13vh;
     margin-left: 5vw;
 }
-
 
 .Skills .SkillsCont {
     display: flex;

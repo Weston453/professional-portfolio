@@ -1,34 +1,26 @@
 .Contact {
     height: 120px;
-    background: purple;
+    background: burlywood;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
 
-.Contact .Content {
+.Contact p {
+    margin: 0;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
-.Contact .ArrowCont {
+.Contact .Content {
     display: flex;
+    /* align-items: center; */
     justify-content: center;
-}
-
-.Contact .ArrowCont a {
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    margin: 0;
-}
-
-.Contact .ArrowCont a .Image {
-    height: 40px;
-    /* transform: rotate(180deg); */
 }
 
 .Contact .Content .Link {
@@ -36,3 +28,10 @@
     color: white;
     padding: 1%;
 }
+
+.Contact .Content .Link:hover {
+    cursor: pointer;
+    color: black;
+    padding: 1%;
+}
+

@@ -36,6 +36,7 @@
 }
 
 .Home .Container .Btn a{
+    width: 150px;
     display: flex;
     margin-top: 3vh;
     text-decoration: none;

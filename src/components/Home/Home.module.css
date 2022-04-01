@@ -43,6 +43,7 @@
 }
 
 .Home .Container .Btn a button {
+    border: solid black 2px;
     width: 150px;
     background: transparent;
     font-weight: 700;
@@ -50,7 +51,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
 }
 
 .Home .Container .Btn a button:hover {

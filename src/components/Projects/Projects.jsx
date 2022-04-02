@@ -19,7 +19,7 @@ const Projects = () => {
           <div className={classes.Images}>
             <img className={classes.Thumbnail} src={SpendTrackerPicture} alt="Spend Tracker Project" />
             <div className={classes.ProjectDescription}>
-              <p>This is my Devmountain Capstone project! It is a spend tracker built with a mobile first design that features user authentication, data visualization, and an intuitive UI<br/><br/>
+              <p>This is my Devmountain Capstone project! It is a spend tracker built with a mobile first design that features user authentication, data visualization, and an intuitive UI. (Not hosted)<br/><br/>
               React | Tailwind | Firebase | ChartJS </p>
               <div className={classes.Icons}>
                 <FaGithub size='30px' className={classes.Link} onClick={handleURL('https://github.com/Weston453/Spend-Tracker-Capstone')} />
@@ -31,7 +31,7 @@ const Projects = () => {
         <div className={classes.AllProjects}>
           <h2 className={classes.ProjectTitle}>SkiPak</h2>
           <div className={classes.Images}>
-            <img className={classes.Thumbnail} src={SkiPakPicture} alt="SkiPak Project" />
+            <img className={classes.Thumbnail} src={SkiPakPicture} alt="SkiPak Project" onClick={handleURL('http://on-the-snow.herokuapp.com/')} />
             <div className={classes.ProjectDescription}>
               <p>I developed this project with vanilla JS it preforms full CRUD manipulation of DOM elements and utilizes the Weatherbit  API for current locational weather. <br/><br/>
               JavaScript | CSS3 | HTML5 | NodeJS | Express | Axios | Postman </p>
@@ -45,7 +45,7 @@ const Projects = () => {
         <div className={classes.AllProjects}>
           <h2 className={classes.ProjectTitle}>Wedding Website</h2>
           <div className={classes.Images}>
-            <img className={classes.Thumbnail} src={WeddingPicture} alt="Wedding website preview" />
+            <img className={classes.Thumbnail} src={WeddingPicture} alt="Wedding website preview" onClick={handleURL('https://koriewestonwedding.com/')}/>
             <div className={classes.ProjectDescription}>
               <p>I am building a day of wedding website for the guest at my wedding to find helpful info, such as the itinterary, dinner/cocktail menues, wedding party bios and a feature to find your dinner seat.<br/><br/>
               React | Javascript | CSS3 </p>

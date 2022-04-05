@@ -1,18 +1,18 @@
 .Home {
     margin: 0;
     padding: 0;
-    background: bisque;
+    background: white;
     height: 90vh;
     padding-top: 70px;
     position: relative;
     display: flex;
-    flex-wrap: wrap;
+    /* align-items: center; */
 }
 
 .Home .Construction {
-    height: 45vh;
-    margin-left: 10vw;
-    margin-top: 10vh;
+    height: 50vh;
+    margin-left: 15vw;
+    margin-top: 16vh;
     border-radius: 10px;
 }
 
@@ -26,13 +26,21 @@
 }
 
 .Home .Container {
-    margin-top: 10vh;
+    margin-top: 16vh;
     margin-left: 8vw;
-    justify-content: center;
+    margin-left: 8vw;
+    /* justify-content: center; */
 }
 
-.Home .Container h1 {
+.Home .Container .Name {
     margin: 0;
+    font-weight: 900;
+}
+
+.Home .Container .Title {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 700;
 }
 
 .Home .Container .Btn a{
@@ -43,10 +51,13 @@
 }
 
 .Home .Container .Btn a button {
-    border: solid black 2px;
+    border: solid #368eb2 2px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15vh;
     width: 150px;
-    background: transparent;
-    font-weight: 700;
+    background: #368eb2;
+    font-weight: 400;
     padding: 8px;
     display: flex;
     align-items: center;
@@ -54,9 +65,10 @@
 }
 
 .Home .Container .Btn a button:hover {
+    border: solid skyblue 2px;
     width: 150px;
-    background: burlywood;
-    font-weight: 700;
+    background: skyblue;
+    font-weight: 400;
     cursor: pointer;
     color: white; 
 }

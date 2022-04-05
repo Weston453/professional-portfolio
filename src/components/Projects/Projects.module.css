@@ -1,7 +1,7 @@
 .Projects {
     margin: 0;
     padding: 10;
-    background: bisque;
+    background: white;
     height: 100%;
     position: relative;
     display: flex;
@@ -11,6 +11,7 @@
 .Projects h2 {
     margin-top: 13vh;
     margin-left: 5vw;
+    font-weight: 700;
 }
 
 .Projects .ImageContainer {
@@ -24,52 +25,79 @@
     text-align: center;
 }
 
-.Projects .ImageContainer .AllProjects .ProjectTitle {
+.Projects .ImageContainer .ProjectCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.Projects .ImageContainer .AllProjects .ProjectCard .ProjectHeader .ProjectTitle {
     margin: 0;
     margin-bottom: 2px;
     text-align: center;
+    font-weight: 400;
+    /* background-color: green; */
+    /* color: white; */
 }
 
-.Projects .ImageContainer .Images {
-    height: 250px;
+.Projects .ImageContainer .AllProjects .ProjectCard .ProjectBody {
+    margin: 0;
+
+    text-align: center;
+    font-weight: 400;
+    /* background-color: blue; */
+    display: flex;
+    /* color: white; */
+}
+
+.Projects .ImageContainer .AllProjects .ProjectCard {
+    /* height: 250px; */
     width: 500px;
     padding: 1%;
-    background-color: burlywood;
+    /* background-color: skyblue; */
+    border: solid skyblue 5px;
     display: flex;
     border-radius: 10px;
 }
 
-.Projects .ImageContainer .Images .Icons{
+.Projects .ImageContainer .AllProjects .ProjectCard .Icons{
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    /* background-color: yellow; */
 }
 
-.Projects .ImageContainer .Images .Icons .Link{
+.Projects .ImageContainer .AllProjects .ProjectCard .Icons .Link{
     margin-left: 1vw;
 }
 
-.Projects .ImageContainer .Images .Icons .Link:hover{
+.Projects .ImageContainer .AllProjects .ProjectCard .Icons .Link:hover{
     margin-left: 1vw;
     cursor: pointer;
     fill: white;
 }
 
-.Projects .ImageContainer .Images .ProjectDescription{
+.Projects .ImageContainer .AllProjects .ProjectCard .ProjectDescription{
     display: flex;
     flex-direction: column;
-    padding: 1%;
+    justify-content: space-between;
+    /* padding: 1%; */
+    padding-left: 1%;
+    /* background-color: orange; */
 }
 
-.Projects .ImageContainer .Images p {
-    height: 250px;
-    margin-left: 5px;
-    margin-bottom: 0;
+.Projects .ImageContainer .AllProjects .ProjectCard p {
     margin-top: 0;
     text-align: left;
     font-size: 1rem;
 }
 
-.Projects .ImageConatiner .Images .Picture {
+.Projects .ImageContainer .AllProjects .ProjectCard .Skills {
+    text-align: center;
+    /* font-style: italic; */
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.Projects .ImageConatiner .AllProjects .ProjectCard .Picture {
     height: 250px;
     width: 250px;
 }

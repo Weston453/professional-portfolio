@@ -8,6 +8,8 @@ body {
 }
 
 code {
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Vollkorn', serif;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
@@ -15,20 +17,32 @@ code {
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  font-family: 'Vollkorn', serif;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: black 900;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 2.15rem;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 p {
+  font-family: 'Titillium Web', sans-serif;
   font-size: 1.5rem;
 }
 
 li {
+  font-family: 'Titillium Web', sans-serif;
   font-size: 1.5rem;
+}
+
+button {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: .9rem;
 }

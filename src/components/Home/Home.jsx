@@ -4,6 +4,8 @@ import { FaChevronDown } from "react-icons/fa";
 // import Laptop from '../Img/Laptop.svg'
 import Construction from '../Img/Construction.jpg'
 
+
+//#region test
 const Home = () => {
   return (
     <div className={classes.Home} id="Home">
@@ -12,7 +14,7 @@ const Home = () => {
           Weston Isheim.
         </h1>
         <h1 className={classes.Title}>
-          Full-Stack Web Developer.
+          Database Engineer.
         </h1>
         <div className={classes.Btn}>
           <a href="#Projects">
@@ -28,5 +30,7 @@ const Home = () => {
     </div>
   )
 }
+
+//#endregion
 
 export default Home

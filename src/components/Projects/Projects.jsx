@@ -1,7 +1,6 @@
 import React from 'react'
 import classes from './Projects.module.css'
 import { FaGithub, FaYoutube, FaChevronUp } from "react-icons/fa";
-import WeddingPicture from '../Img/WeddingPicture.PNG'
 import SkiPakPicture from '../Img/SkiPakPicture.PNG'
 import SpendTrackerPicture from '../Img/SpendTrackerPicture.PNG'
 
@@ -12,7 +11,7 @@ const handleURL = (url) => {
 const Projects = () => {
   return (
     <div className={classes.Projects} id="Projects">
-      <h2>Projects</h2>
+      <h2>Featured Projects</h2>
       <div className={classes.ImageContainer}>
 
         <div className={classes.AllProjects}>
@@ -52,24 +51,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className={classes.AllProjects}>
-          <div className={classes.ProjectCard}>
-            <div className={classes.ProjectHeader}>
-              <h2 className={classes.ProjectTitle}>Wedding Website</h2>
-            </div>
-            <div className={classes.ProjectBody}>
-              <img className={classes.Thumbnail} src={WeddingPicture} alt="Wedding website preview" onClick={handleURL('https://koriewestonwedding.com/')}/>
-              <div className={classes.ProjectDescription}>
-                <p>Designed as the go-to, day-of informational source for my wedding guests, the website features a complete itinerary, dinner/cocktail menus, wedding party bios, and a database retrieval to find your dinner seat.</p>
-                <p className={classes.Skills}>React | Javascript | CSS3 </p>
-                <div className={classes.Icons}>
-                  <FaGithub size='30px' className={classes.Link} onClick={handleURL('https://github.com/Weston453/wedding-website')} />
-                  <FaYoutube size='30px' className={classes.Link} onClick={handleURL('https://youtu.be/OIjiTnF7myU')} />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>    
       </div>
       <div className={classes.ArrowCont}>
         <a href="#Home">
